@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+background-image: url("bi.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* margin: 8px 523px 446px 550px; */
+    margin-top: 180px;
+
+    /* height: 450px; */
+    
+}
+.button
+{
+    display: inline-block;
+    align-content: space-between;
+    padding: 21px;
+    border: 1px solid #eb0450;
+    border-radius:40px ;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow:1px 3px 3px red;
+    margin-left: 17px;
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#display
+{
+    height: 85px;
+    width: 335px;
+    margin-top: 5px;
+    border: 1px solid #eb0450;
+    border-radius: 30px;
+    text-align: right;
+    font-weight:bolder;
+    font-size: xx-large;
+    background-image: url("display_galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 4px;
+    color: whitesmoke;
+}
+#container
+{
+    height: 635px;
+    border: 2px solid;
+    border-radius: 46px;
+    box-shadow: 15px 4px 25px 14px #ff2546;
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.value:hover, #clearbutton:hover , .operator:hover
+{
+ box-shadow: 0px 0px 20px ;
+}
+.up
+{
+    font-size: 37px;
+    width: 64px;
+}
+footer
+{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+.size
+{
+    width: 152px;
+    text-align: left;
+}
+.width
+{
+    width: 60px;
+    text-align: center;
+}
+.operator
+{
+    background-image: url("sun.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 164px;
+}
