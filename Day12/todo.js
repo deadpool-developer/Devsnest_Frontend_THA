@@ -1,4 +1,4 @@
-// To set the date item added
+// To set the date item added..
 let a;
 let date;
 const options = { year: 'numeric', month: 'long', day: 'numeric' };
