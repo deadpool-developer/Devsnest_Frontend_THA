@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOs List</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container my-4">
+        <h1 class="heading">TODOs List</h1>
+        <h4 class="sub-heading">GET SHIT DONE</h4>
+       
+        <div class="form-group">
+
+
+            <div class="form-control">
+                <label for="title"><b>Title</b></label>
+                <div> <input type="text" class="Title" id="title" placeholder="Write your title here" ><br></div>
+
+                <small class="form-caption">Add an item to the list</small>
+            </div>
+            <br><br><br>
+
+            <div class="form-control">
+                <label for="description"><b>Description</b></label>
+                <div>
+                    <textarea class="Title" id="description" placeholder="Describe your work"></textarea>
+                </div>
+                <small class="form-caption">Describe your TODO work</small>
+            </div>
+
+
+        </div>
+
+        <button type="submit" class="button" id="add" >Add to list</button>
+        <button class="button" id="clear" onclick="clearStorage()">Clear list</button>
+
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="items">
+        <h2 class="items-heading">Your Items</h2><br>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">SNo</th>
+                    <th scope="col">Item Title</th>
+                    <th scope="col">Item Description</th> 
+                    <th scope="col">Actions</th> 
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Get some Coffee</td>
+                    <td>You need coffee as you are a coder</td> 
+                    <td><button class="delete">Delete</button></td> 
+                    <td id="time">date</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+    </div>
+    
+</body>
+<footer>💖 MADE &nbsp;BY &nbsp; ADITYA&nbsp;  SAINI 💖</footer>
+<script src="todo.js" ></script>
+
+
+</html>

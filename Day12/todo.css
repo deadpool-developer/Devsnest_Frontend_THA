@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("todo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    margin-left: 44vw;
+    margin-top: 3vh;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 5vh;
+    border: 5px groove black;
+    border-radius: 5vw;
+    width: 20vw;
+    -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow: inset 0 0 10px #000000;
+   font-family: 'Montserrat', sans-serif;
+   animation:heading infinite 15s;
+}
+.form-control{
+    
+    margin-left: 5vw;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.Title{
+    
+    width: 90vw;
+    height: 5vh;
+    border: 2px solid grey;
+    box-shadow: 0 8px 6px -6px black;
+    background: rgba(255,255,255,0.1);
+}
+.Title:hover{
+    background-color: rgba(19, 162, 172, 0.705);
+}
+.form-caption{
+    float:left;
+    font-size:small;
+    font-weight: bold;
+    margin-top: 1vh;
+    
+}
+#description{
+    height: 20vh;
+    margin-top: 1vh;
+    border: 2px solid grey;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.button
+{
+    margin: 3vw -20vw 0vw 27vw;
+    float: left;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow: inset 0 0 10px #000000;
+   background: rgba(255,255,255,0.1);
+   cursor: pointer;
+    
+    
+}
+.button:hover{
+    background-color:rgba(19, 162, 172, 0.705); ;
+}
+
+@keyframes heading{
+    0% {
+        background-color: rgb(253, 80, 0);
+      }
+      10% {
+        background-color: rgb(253, 215, 0);
+      }
+      20% {
+        background-color: rgb(143, 253, 0);
+      }
+      30% {
+        background-color: rgb(0, 253, 156);
+      }
+      40% {
+        background-color: rgb(0, 173, 253);
+      }
+      50% {
+        background-color: rgb(0, 89, 253);
+      }
+      60% {
+        background-color: rgba(141, 32, 184, 0.726);
+      }
+      70% {
+        background-color: rgb(131, 26, 105);
+      }
+      80% {
+        background-color: rgb(173, 0, 253);
+      }
+      90% {
+        background-color: rgb(123, 202, 248);
+      }
+      100% {
+        background-color: rgb(59, 59, 59);
+      }
+
+}
+
+.items
+{
+    /* text-align: center; */
+    display: grid;
+    align-content:center;
+    justify-content:left;
+    grid-template-columns:auto;
+    margin-left: 7vw;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.table{
+  margin-left: 35vw;
+  border: 2px solid black;
+}
+.items-heading{
+  margin-left: 42vw;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5vw;
+  width: 10vw;
+  background-color: black;
+  color: bisque;
+}
+.delete{
+ border: 1px solid black;
+ background-color: crimson;
+ color: whitesmoke;
+ box-shadow: 0 8px 6px -6px black;
+ 
+}
+
+.delete:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+footer{
+  background-color:black;
+  color: white;
+  text-align: center;
+  margin-top: 20vh;
+  height:3.6vh;
+  padding-left: 10vw;
+}
+
+.sub-heading{
+  margin-left: 10vw;
+  margin-top: -4vh;
+  text-align: center;
+  color: rgb(255, 72, 0);
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.555), 0px 0px 7px #fff;
+}
+
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px rgb(168, 106, 106), 
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 25px rgb(168, 106, 106),
+      0px 0px 50px rgb(168, 106, 106),
+      0px 0px 50px rgb(168, 106, 106),
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+
+
+
+
+
