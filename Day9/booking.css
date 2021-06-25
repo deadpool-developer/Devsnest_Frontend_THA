@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+}
+
+#container{
+    height: 50vh;
+    width: 91%;
+    border: 4px solid black;
+    margin-left:4vw ;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 7px 7px 5px rgb(54, 51, 51), -7px -7px 5px rgb(54, 51, 51);
+    background-color:black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.box{
+    background-image: url("seats.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 12vh;
+    width: 4.5vw;
+    border: 2px solid black;
+}
+
+.box:hover{
+   background-color: skyblue;
+}
+
+.screen{
+    width: 100%;
+    height: 60vh;
+}
+
+.exit-right{
+    float: right;
+    margin-top: -46vh;
+    margin-left: -28vw;
+    transform:rotate(90deg); 
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate; 
+    font-size: x-large;
+}
+
+.exit-left{
+    float: left;
+    margin-top: -46vh;
+    margin-left: -0.5vw; 
+    transform:rotate(270deg); 
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate; 
+    font-size: x-large;
+}
+
+@keyframes glow {
+    from {
+     color: #fff;
+     text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 90px #ff0000;
+ }
+ 
+ to {
+    color: red;
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 1 90px #ff0000;
+ }
+}
+
+.selected{
+    background-color: yellowgreen;
+}
