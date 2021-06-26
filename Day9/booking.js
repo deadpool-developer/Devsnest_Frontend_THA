@@ -1,11 +1,11 @@
 var booked = 0;
-var available = 76;
+var available = 57;
 document.getElementById("booked").innerHTML = booked;
 document.getElementById("available").innerHTML = available;
 let container = document.getElementById("container");
 
 //Boxes inside the container class
-for (let i = 0; i < 76; i++) {
+for (let i = 0; i < 57; i++) {
     let box = document.createElement("div");
     box.className = "box";
     container.appendChild(box);
