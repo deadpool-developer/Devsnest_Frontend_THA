@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & EventListener</title>
+    <link rel="stylesheet" href="events.css"/>
+</head>
+<body>
+<h1 class="heading">Events in Javascript</h1>
+
+    <h5>This is onmouseenter and onmouseleave event.</h5>
+    <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="js.jfif" alt="picture" width="40" height="40"><hr>
+
+
+    <div class="event1">
+        <h5>onclick Event</h5>
+        <button onclick="myfunction()">Click me</button>
+        <h3 id="s1"></h3></div><hr>
+
+    
+        <div class="event2">
+        <h5>ondblclick Event</h5>
+        <button ondblclick="myfunction2()">Double click me</button>
+        <h3 id="s2"></h3>
+        </div><hr>
+
+    
+        <div class="event3">
+            <h5>onblur Event</h5>
+            <h6>This event transform the input text to upper case when you leave the input field</h6>
+            <input id="s3" type="text" onblur="myfunction3()" placeholder="write something">
+            </div><hr>
+
+    
+        <div class="event4">
+            <h5>oninput Event</h5>
+            <input id="myinput" type="text" oninput="myInputFunction()">
+            <h4 id="demo"></h4>
+        </div><hr>
+
+
+        <h5>onscroll Event</h5>
+        <div class="event5" onscroll="myScrollfun()">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis expedita deserunt quod corporis temporibus voluptatem, qui accusantium nihil mollitia eligendi tempora sit aliquam commodi? Quis facere accusamus aliquam molestias? Vitae nostrum, illo ratione quos consequatur quidem recusandae facere veritatis repellat. Quisquam velit ratione exercitationem dolore ducimus ea molestiae numquam!
+        </div>
+        <p>scroll number: <span id="demo1"></span></p><hr>
+
+</body>
+<script src="events.js"></script>
+</html>
